@@ -11,10 +11,10 @@ public class YellowLight extends TrafficLightState {
         return SingletonHelper.INSTANCE;
     }
     public boolean checkCanIGo() {
-        return false;
+        return true;
     }
     public boolean checkStop() {
-        return false;
+        return true;
     }
     public void printState() {
         System.out.println("Yellow Light");

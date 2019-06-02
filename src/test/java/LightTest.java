@@ -31,20 +31,31 @@ public class LightTest {
         light.nextState();
 
         Assert.assertEquals(light.getState(), YellowLight.getInstance());
-        Assert.assertFalse(light.getState().checkCanIGo());
-        Assert.assertFalse(light.getState().checkStop());
+        Assert.assertTrue(light.getState().checkCanIGo());
+        Assert.assertTrue(light.getState().checkStop());
         light.nextState();
 
     }
 
     @Test
     public void humanLightTest() {
-        TrafficLigh human = new TrafficLigh(HumanLightStatesDescription.RED);
+        TrafficLigh human = new TrafficLigh(HumanLightStatesDescription.GREEN);
 
-        Assert.assertEquals(human.getState(), RedLight.getInstance());
+        Assert.assertEquals(human.getState(), HumanLightStatesDescription.GREEN.getCurrent());
+        Assert.assertTrue(human.getState().checkCanIGo());
+        Assert.assertFalse(human.getState().checkStop());
+        human.nextState();
+
+        Assert.assertEquals(human.getState(), HumanLightStatesDescription.GREEN_PULSE.getCurrent());
+        Assert.assertTrue(human.getState().checkCanIGo());
+        Assert.assertFalse(human.getState().checkStop());
+        human.nextState();
+
+        Assert.assertEquals(human.getState(), HumanLightStatesDescription.RED.getCurrent());
         Assert.assertFalse(human.getState().checkCanIGo());
         Assert.assertTrue(human.getState().checkStop());
         human.nextState();
+
 
     }
 }
