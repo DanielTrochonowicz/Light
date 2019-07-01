@@ -2,15 +2,21 @@ package traffic.ligh.light.model;
 import traffic.ligh.model.state.TrafficLightState;
 import traffic.ligh.model.state.impl.RedLight;
 
+import java.util.Arrays;
+import java.util.List;
+
 
 public class TrafficLighGroup {
 
-    TrafficLigh humonLight;
-    TrafficLigh vehiculeLight;
+    TrafficLight humonLight;
+    TrafficLight vehiculeLight;
 
-    public TrafficLighGroup(TrafficLigh humonLight, TrafficLigh vehiculeLight) {
+    private final List<TrafficLight> lightList;
+
+    public TrafficLighGroup(TrafficLight humonLight, TrafficLight vehiculeLight, TrafficLight... lights) {
         this.humonLight = humonLight;
         this.vehiculeLight = vehiculeLight;
+        this.lightList = Arrays.asList(lights);
     }
 
     public TrafficLightState getStateVehiculeLight() {
@@ -55,5 +61,32 @@ public class TrafficLighGroup {
             isAllRed = ((!carLight.checkCanIGo() && carLight.checkStop()))
                     && (!humonLights.checkCanIGo() && humonLights.checkStop());
         }while (!isAllRed);
+    }
+
+    /**
+     * Method for stopping only one model of lights
+     * @param model - LightModels instance
+     */
+    public void stop(LightModels model) {
+        lightList.stream()
+                .filter(p -> model.getTranspositionClass().equals(p.getTranspositionClass()))
+                .forEach(p -> {
+                    while (p.getState().checkCanIGo() || !p.getState().checkStop()) {
+                        p.nextState();
+                }
+        });
+    }
+    /**
+     * Method for start only one model of lights
+     * @param model
+     */
+    public void start(LightModels model) {
+        lightList.stream()
+                .filter(p -> model.getTranspositionClass().equals(p.getTranspositionClass()))
+                .forEach(p -> {
+                    while(!p.getState().checkCanIGo() || p.getState().checkStop()) {
+                        p.nextState();
+               }
+        });
     }
 }

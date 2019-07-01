@@ -1,6 +1,6 @@
 import org.junit.Assert;
 import org.junit.Test;
-import traffic.ligh.light.model.TrafficLigh;
+import traffic.ligh.light.model.TrafficLight;
 import traffic.ligh.model.state.HumanLightStatesDescription;
 import traffic.ligh.model.state.LightStatesDescription;
 import traffic.ligh.model.state.impl.GreenLight;
@@ -13,7 +13,7 @@ public class LightTest {
     @Test
     public void lightState(){
 
-        TrafficLigh light = new TrafficLigh(LightStatesDescription.RED);
+        TrafficLight light = new TrafficLight(LightStatesDescription.RED);
 
         Assert.assertEquals(light.getState(), RedLight.getInstance());
         Assert.assertFalse(light.getState().checkCanIGo());
@@ -39,7 +39,7 @@ public class LightTest {
 
     @Test
     public void humanLightTest() {
-        TrafficLigh human = new TrafficLigh(HumanLightStatesDescription.GREEN);
+        TrafficLight human = new TrafficLight(HumanLightStatesDescription.GREEN);
 
         Assert.assertEquals(human.getState(), HumanLightStatesDescription.GREEN.getCurrent());
         Assert.assertTrue(human.getState().checkCanIGo());

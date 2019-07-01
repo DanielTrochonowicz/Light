@@ -17,6 +17,6 @@ public class GreenLight extends TrafficLightState {
         return false;
     }
     public void printState() {
-        System.out.println("Green Light ");
+        System.out.println("Green Light");
     }
 }

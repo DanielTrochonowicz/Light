@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Programowanie3" />
+        <module name="trafficlight" />
       </profile>
     </annotationProcessing>
   </component>

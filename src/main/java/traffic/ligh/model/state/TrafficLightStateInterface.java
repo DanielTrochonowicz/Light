@@ -1,8 +1,8 @@
 package traffic.ligh.model.state;
 
-public interface TrafficLightStateInterface {
+public interface TrafficLightStateInterface{
 
     TrafficLightState getCurrent();
     TrafficLightState GetNext();
-    TrafficLightStateInterface getLightTypeByState (TrafficLightState now);
+    TrafficLightStateInterface getLightTypeByState (Class<? extends TrafficLightState> state);
 }

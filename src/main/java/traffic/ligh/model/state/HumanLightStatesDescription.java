@@ -23,7 +23,8 @@ public enum HumanLightStatesDescription implements TrafficLightStateInterface {
     public TrafficLightState GetNext() {
         return this.nextState;
     }
-    public TrafficLightStateInterface getLightTypeByState(TrafficLightState stan){
+
+    public TrafficLightStateInterface getLightTypeByState(Class<? extends TrafficLightState> stan) {
         HumanLightStatesDescription[] value = values();
         for (HumanLightStatesDescription v : value){
             if (stan.equals(v.currentState)){

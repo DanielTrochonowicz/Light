@@ -2,35 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0dc9664-f532-4796-a1f7-d8a81dda4670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TrafficLighGroupTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/0/0044f743dd4286c7ca3910c7e8cd104ab6841bc0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/4/044b5f8169823afae87d90eaab013de259828dc0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/0/2053c7ebfc3153c9d79e492662e98575f43004e8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/0/606ecc48ecfee3cbe6c03e4a162640a8614daef7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/3/63dbdf108bb199800a715ca45f958f0f6f19bd03" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/7/e7c2e799015c6debbaf9965a92378b840db81a38" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/TrafficLightMainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightModels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programowanie3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/trafficlight.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLigh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLighGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLighGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/YellowLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/YellowLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/HumanLightStatesDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/HumanLightStatesDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/LightStatesDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/LightStatesDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightStateInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightStateInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenLight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenLight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenPulse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenPulse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/LightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/light/TrafficLigh.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/HumanLightStatesDescription.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/LightStatesDescription.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/TrafficLightState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/TrafficLightStateInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/GreenLight$SingletonHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/GreenLight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/GreenPulse$SingletonHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/GreenPulse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/RedLight$SingletonHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/RedLight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/RedYellowLight$SingletonHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/RedYellowLight.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/YellowLight$SingletonHelper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/trafficligh/model/state/impl/YellowLight.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrafficLighGroupTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrafficLighGroupTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/LightTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/LightTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -43,65 +33,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TrafficLighGroupTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/TrafficLightMainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
+            <state relative-caret-position="244">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightThread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/RedYellowLight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-              <folding>
-                <element signature="e#320#321#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#624#625#0" expanded="true" />
+                <element signature="e#706#707#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLighGroup.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenLight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="374">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#653#654#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/LightTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#413#414#0" expanded="true" />
+                <element signature="e#446#447#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#505#506#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,9 +140,21 @@
         <option value="$PROJECT_DIR$/src/main/java/trafficligh/ligh/light/model/TrafficLighGroup.java" />
         <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/YellowLight.java" />
         <option value="$PROJECT_DIR$/src/test/java/LightTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLighGroup.java" />
         <option value="$PROJECT_DIR$/src/test/java/TrafficLighGroupTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/sadas.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenPulse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightStateInterface.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLigh.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightModels.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/LightStatesDescription.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/HumanLightStatesDescription.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/TrafficLightMainClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightMainClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLighGroup.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenLight.java" />
+        <option value="$PROJECT_DIR$/src/main/java/traffic/ligh/TrafficLightMainClass.java" />
       </list>
     </option>
   </component>
@@ -158,9 +166,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="width" value="1378" />
-    <option name="height" value="780" />
+    <option name="x" value="239" />
+    <option name="y" value="1072" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -168,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,33 +239,21 @@
               <item name="state" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Programowanie3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programowanie3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Programowanie3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Programowanie3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559481638289" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561986462646" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3901869" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -269,18 +267,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TrafficLighGroupTest">
-    <configuration name="LightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Programowanie3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LightTest" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Application.TrafficLightMainClass">
+    <configuration name="TrafficLightMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traffic.ligh.TrafficLightMainClass" />
+      <module name="trafficlight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traffic.ligh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sadas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="traffic.ligh.model.state.impl.sadas" />
+      <module name="trafficlight" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="traffic.ligh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="LightTest.lightState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Programowanie3" />
+      <module name="trafficlight" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LightTest" />
       <option name="METHOD_NAME" value="lightState" />
@@ -290,7 +305,7 @@
       </method>
     </configuration>
     <configuration name="TrafficLighGroupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Programowanie3" />
+      <module name="trafficlight" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrafficLighGroupTest" />
       <option name="TEST_OBJECT" value="class" />
@@ -299,7 +314,7 @@
       </method>
     </configuration>
     <configuration name="TrafficLighGroupTest.NextTrafficLight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Programowanie3" />
+      <module name="trafficlight" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TrafficLighGroupTest" />
       <option name="METHOD_NAME" value="NextTrafficLight" />
@@ -308,23 +323,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrafficLighGroupTest.lightState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Programowanie3" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrafficLighGroupTest" />
-      <option name="METHOD_NAME" value="lightState" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="trafficlight" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="trafficlight" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TrafficLightMainClass" />
+        <item itemvalue="Application.sadas" />
         <item itemvalue="JUnit.TrafficLighGroupTest" />
         <item itemvalue="JUnit.TrafficLighGroupTest.NextTrafficLight" />
         <item itemvalue="JUnit.LightTest.lightState" />
-        <item itemvalue="JUnit.LightTest" />
-        <item itemvalue="JUnit.TrafficLighGroupTest.lightState" />
       </list>
     </recent_temporary>
   </component>
@@ -339,6 +391,14 @@
       <option name="presentableId" value="Default" />
       <updated>1559375162534</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1559481676635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559481676635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -374,7 +434,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="239" y="1072" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -382,12 +442,14 @@
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.22692889" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27609682" />
       <window_info id="Learn" order="6" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info id="Project Explorer" order="8" />
+      <window_info id="Job Explorer" order="9" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27504244" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38950714" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39898133" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -395,8 +457,9 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="SonarLint" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3293718" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32750398" />
+      <window_info anchor="bottom" id="Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -437,6 +500,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -452,23 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/RedLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#376#377#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#437#438#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#542#543#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/Semaphore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2530">
@@ -476,10 +526,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5912">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/sadas.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/util/concurrent/ConcurrentSkipListMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4873">
+          <caret line="111" column="13" selection-start-line="111" selection-start-column="13" selection-end-line="111" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenPulse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        <state relative-caret-position="352">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
             <element signature="e#304#305#0" expanded="true" />
             <element signature="e#351#352#0" expanded="true" />
@@ -493,56 +565,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="e#304#305#0" expanded="true" />
-            <element signature="e#351#352#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/HumanLightStatesDescription.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#840#841#0" expanded="true" />
-            <element signature="e#877#878#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/YellowLight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#418#419#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/LightStatesDescription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="691">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#876#877#0" expanded="true" />
@@ -555,50 +581,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightStateInterface.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="132">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLigh.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/HumanLightStatesDescription.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="726">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#392#393#0" expanded="true" />
-            <element signature="e#444#445#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightState.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/YellowLight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/LightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="264">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/RedYellowLight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+        <state relative-caret-position="396">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
             <element signature="e#320#321#0" expanded="true" />
             <element signature="e#367#368#0" expanded="true" />
@@ -606,25 +628,39 @@
             <element signature="e#430#431#0" expanded="true" />
             <element signature="e#463#464#0" expanded="true" />
             <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLighGroup.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/RedLight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="396">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.2/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-129">
+          <caret line="784" column="29" selection-start-line="784" selection-start-column="29" selection-end-line="784" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TrafficLighGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
+        <state relative-caret-position="-176">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -634,8 +670,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/LightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-396">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightModels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#586#587#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLighGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/LightController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="74" selection-start-line="6" selection-start-column="74" selection-end-line="6" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/light/model/TrafficLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#706#707#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/impl/GreenLight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/model/state/TrafficLightState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/traffic/ligh/TrafficLightMainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -14,7 +14,7 @@ public class GreenPulse extends TrafficLightState {
         return true;
     }
     public boolean checkStop() {
-        return false;
+        return true;
     }
     public void printState() {
         System.out.println("Green Pulse");

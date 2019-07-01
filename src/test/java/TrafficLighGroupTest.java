@@ -1,6 +1,6 @@
 import org.junit.Assert;
 import org.junit.Test;
-import traffic.ligh.light.model.TrafficLigh;
+import traffic.ligh.light.model.TrafficLight;
 import traffic.ligh.light.model.TrafficLighGroup;
 import traffic.ligh.model.state.HumanLightStatesDescription;
 import traffic.ligh.model.state.LightStatesDescription;
@@ -8,8 +8,8 @@ import traffic.ligh.model.state.impl.*;
 
 public class TrafficLighGroupTest {
 
-    TrafficLigh vehiculeLight = new TrafficLigh(LightStatesDescription.RED);
-    TrafficLigh humonLight = new TrafficLigh(HumanLightStatesDescription.GREEN);
+    TrafficLight vehiculeLight = new TrafficLight(LightStatesDescription.RED);
+    TrafficLight humonLight = new TrafficLight(HumanLightStatesDescription.GREEN);
     TrafficLighGroup grupLight = new TrafficLighGroup(humonLight, vehiculeLight);
 
     @Test
